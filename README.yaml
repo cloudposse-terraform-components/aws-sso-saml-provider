@@ -22,8 +22,6 @@ description: |-
           enabled: true
           ssm_path_prefix: "/sso/saml/google"
   ```
-include:
-  - "docs/terraform.md"
 tags:
   - component/sso-saml-provider
   - layer/software-delivery
