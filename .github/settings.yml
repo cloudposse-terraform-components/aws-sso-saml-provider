@@ -5,3 +5,4 @@ repository:
   description: 'This component reads sso credentials from SSM Parameter store and provides them as outputs  ## Usage  **Stack Level**: Regional  Use this in the catalog or use these variables to overwrite the catalog values'
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
+
