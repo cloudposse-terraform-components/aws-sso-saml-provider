@@ -5,5 +5,3 @@ repository:
   description: This component reads sso credentials from SSM Parameter store and provides them as outputs
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
-
-
