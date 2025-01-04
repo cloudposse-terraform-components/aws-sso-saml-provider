@@ -8,7 +8,7 @@ locals {
 
 module "store_read" {
   source  = "cloudposse/ssm-parameter-store/aws"
-  version = "0.10.0"
+  version = "0.13.0"
 
   context = module.this.context
 
