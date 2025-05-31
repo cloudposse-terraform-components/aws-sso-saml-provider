@@ -215,7 +215,7 @@ No providers.
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_iam_roles"></a> [iam\_roles](#module\_iam\_roles) | ../account-map/modules/iam-roles | n/a |
-| <a name="module_store_read"></a> [store\_read](#module\_store\_read) | cloudposse/ssm-parameter-store/aws | 0.10.0 |
+| <a name="module_store_read"></a> [store\_read](#module\_store\_read) | cloudposse/ssm-parameter-store/aws | 0.13.0 |
 | <a name="module_this"></a> [this](#module\_this) | cloudposse/label/null | 0.25.0 |
 
 ## Resources
