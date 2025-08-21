@@ -8,7 +8,6 @@ tags:
 # Component: `sso-saml-provider`
 
 This component reads sso credentials from SSM Parameter store and provides them as outputs
-
 ## Usage
 
 **Stack Level**: Regional
@@ -27,9 +26,8 @@ components:
         ssm_path_prefix: "/sso/saml/google"
 ```
 
-[<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-sso-saml-provider&utm_content=)
 
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -91,4 +89,15 @@ No resources.
 | <a name="output_issuer"></a> [issuer](#output\_issuer) | Identity Provider Single Sign-On Issuer URL |
 | <a name="output_url"></a> [url](#output\_url) | Identity Provider Single Sign-On URL |
 | <a name="output_usernameAttr"></a> [usernameAttr](#output\_usernameAttr) | User name attribute |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- markdownlint-restore -->
+
+
+
+## References
+
+
+
+
+
+[<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-sso-saml-provider&utm_content=)
+

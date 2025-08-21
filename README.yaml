@@ -4,9 +4,7 @@ github_repo: "cloudposse-terraform-components/aws-sso-saml-provider"
 # Short description of this project
 description: |-
   This component reads sso credentials from SSM Parameter store and provides them as outputs
-
-  ## Usage
-
+usage: |-
   **Stack Level**: Regional
 
   Use this in the catalog or use these variables to overwrite the catalog values.
@@ -22,6 +20,7 @@ description: |-
           enabled: true
           ssm_path_prefix: "/sso/saml/google"
   ```
+references: []
 tags:
   - component/sso-saml-provider
   - layer/software-delivery
